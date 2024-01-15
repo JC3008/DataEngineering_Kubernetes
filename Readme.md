@@ -42,4 +42,8 @@ As this project access AWS bucket, you must be sure of working only with private
 The above command will create a new token named as regcred. This token is mentioned on your deployment.yaml file.
 
 ## Deploying your app
-
+* kubectl apply -f python-deploy.yaml
+* kubectl get pods ***You expect to see status running. It may take few minutes.***
+* If you have CrashLoopBackoff status, it is probally because your Docker ran out of memory, just restart your system and repeat those steps if you need. In case of you need troubleshotting it, the following commands may be handy:
+kubectl get pods ***To get the pod name***
+kubectl describe <pod name>
