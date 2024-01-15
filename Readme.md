@@ -43,7 +43,12 @@ KIND uses YAML files to build the cluster and you can take a look at the b3_app\
 Make sure you are in b3_app folder.  <br>
 Run: 
 * kind create cluster --name dfpcluster --config kind_b3.yaml  <br>
-***(As a result you ll have two new containers running on your Docker, based on a kind image.)***
+***(As a result you ll have two new containers running on your Docker, based on a kind image.)***  <br>
+After doing that, you'll see the following on your Docker Desktop <br>
+**Control plane and Worker Containers.**
+![Control plane - Workers](images/ContainersKind.png)
+**KIND image.**
+![KIND image](images/kind_image.png)
 
 ## Building and pushing a DOCKER iamge to DockerHub
 Your recent created Kubernetes cluster needs that you have your images available on a container registry. The following steps are for build your image locally and then push into Docker Hub: <br>  
