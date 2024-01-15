@@ -63,7 +63,7 @@ In the objects.py there is a variable called dotenv_path that you might be aware
 ![Alt text](images/pathenvfile.png)
 
 
-## Building and pushing a DOCKER iamge to DockerHub
+## Building and pushing a DOCKER image to DockerHub
 Your recent created Kubernetes cluster needs that you have your images available on a container registry. The following steps are for build your image locally and then push into Docker Hub: <br>  
 ***(It is required to have a account on Docker)***
 
