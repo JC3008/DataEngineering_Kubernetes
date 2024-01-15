@@ -26,8 +26,8 @@ The project consists of collecting data using python applications and writting i
 * Pyspark Image:         Pending
 * Data Lake House:       Pending  <br>
 ## Phase 4 SODA Data Quality  <br>
-* Pyspark Image:         Pending
-* Data Lake House:       Pending
+* Implementing:          Pending
+
 
 
 ## Settings
