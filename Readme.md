@@ -13,6 +13,20 @@ For performing this project you will need:
 # Project outline
 The project consists of collecting data using python applications and writting it on S3 **datalake**, then making needed **data cleaning** and **tranformations**. Once data is available on datalake, it is transformed into a **Data Lake House** by using **Delta** and **Pyspark**. The whole enviroment will be based on **Docker** containers orchestrated by **kubernetes operators** in **Airflow**.
 
+# Project Status  <br>
+**Phase 1 Ingestion to Datalake**  <br>
+* Ingestion Script      Done
+* Cluster Config        Done
+* Python Docker Image   Done
+* Ingestion Deployment  Done
+**Phase 2 Datalakehouse**  <br>
+* Pyspark Image         Pending
+* Data Lake House       Pending
+**Phase 3 Airflow orchestration**  <br>
+* Pyspark Image         Pending
+* Data Lake House       Pending
+
+
 ## Settings
 The first thing you need is a local Kubernetes Cluster, for this project KIND was used for this task. KIND is a cluster based on Docker containers, so it is crucial that you have KIND and Docker Desktop installed on your machine.
 KIND uses YAML files to build the cluster and you can take a look at the b3_app\kind_b3.yaml to get familiarized with the required key:value pairs for the cluster configuration.
