@@ -15,16 +15,16 @@ The project consists of collecting data using python applications and writting i
 
 # Project Status  <br>
 ## Phase 1 Ingestion to Datalake  <br>
-* Ingestion Script      Done
-* Cluster Config        Done
-* Python Docker Image   Done
-* Ingestion Deployment  Done  <br>
+* Ingestion Script:      Done
+* Cluster Config:        Done
+* Python Docker Image:   Done
+* Ingestion Deployment:  Done  <br>
 ## Phase 2 Datalakehouse  <br>
-* Pyspark Image         Pending
-* Data Lake House       Pending  <br>
+* Pyspark Image:         Pending
+* Data Lake House:       Pending  <br>
 ## Phase 3 Airflow orchestration  <br>
-* Pyspark Image         Pending
-* Data Lake House       Pending
+* Pyspark Image:         Pending
+* Data Lake House:       Pending
 
 
 ## Settings
