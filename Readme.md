@@ -55,9 +55,12 @@ Your recent created Kubernetes cluster needs that you have your images available
 ***(It is required to have a account on Docker)***
 
 * docker build -t dfp:v1 .
+![Builded image](images/dfpbuild.png)
 * docker login
 * docker tag dfp:v1 jcs7/dfp:v1 
+![Tagged image](images/dfptag.png)
 * docker push jcs7/dfp:v1 <br>
+![Docker Hub image](images/dockerhub.png)
 
 ***(It is gonna push as public, make it private, as soon as it is done by clicking on settings.)***
 
