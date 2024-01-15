@@ -15,6 +15,7 @@ The project consists of collecting data using python applications and writting i
 
 # Project Status  <br>
 ## Phase 1 Ingestion to Datalake  <br>
+![Alt text](image.png)
 * Ingestion Script:      Done
 * Cluster Config:        Done
 * Python Docker Image:   Done
