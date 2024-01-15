@@ -59,7 +59,7 @@ If you use a different region, adjust the region as well.  <br>
 ## Understanding the src folder structure  <br>
 The src folder contains the whole script that performs the extracting from sources and writting into Datalake. The objects.py has the classes and functions that are used for it.
 The DFPgov is the file which calls functions from objects.py in order to properly do the ETL job.  <br>
-In the objects.py there is a variable called dotenv_path that you might be aware of. This variable indicates the path to .env file you recent adjust. Note that the path indicates /workspaces/app/.env as it will be the right path within the container. If you try unning that locally, you can change the path for the .env file.
+In the objects.py there is a variable called dotenv_path that you might be aware of. This variable indicates the path to .env file you recent adjust. Note that the path indicates /workspaces/app/.env as it will be the right path within the container. If you try running that locally, you can change the path for the .env file.
 ![Alt text](images/pathenvfile.png)
 
 
