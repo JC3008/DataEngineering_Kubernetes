@@ -11,7 +11,7 @@ KIND uses YAML files to build the cluster and you can take a look at the b3_app\
 ## KIND
 Make sure you are in b3_app folder.  <br>
 Run: 
-* kind create cluster --name dfpcluster --config kind_b3.yaml
+* kind create cluster --name dfpcluster --config kind_b3.yaml  <br>
 As a result you ll have two new containers running on your Docker, based on a kind image.
 
 ## DOCKER
