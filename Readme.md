@@ -24,6 +24,9 @@ The project consists of collecting data using python applications and writting i
 * Data Lake House:       Pending  <br>
 ## Phase 3 Airflow orchestration  <br>
 * Pyspark Image:         Pending
+* Data Lake House:       Pending  <br>
+## Phase 4 SODA Data Quality  <br>
+* Pyspark Image:         Pending
 * Data Lake House:       Pending
 
 
