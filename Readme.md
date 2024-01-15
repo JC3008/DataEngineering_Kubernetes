@@ -14,15 +14,15 @@ For performing this project you will need:
 The project consists of collecting data using python applications and writting it on S3 **datalake**, then making needed **data cleaning** and **tranformations**. Once data is available on datalake, it is transformed into a **Data Lake House** by using **Delta** and **Pyspark**. The whole enviroment will be based on **Docker** containers orchestrated by **kubernetes operators** in **Airflow**.
 
 # Project Status  <br>
-**Phase 1 Ingestion to Datalake**  <br>
+## Phase 1 Ingestion to Datalake  <br>
 * Ingestion Script      Done
 * Cluster Config        Done
 * Python Docker Image   Done
 * Ingestion Deployment  Done  <br>
-**Phase 2 Datalakehouse**  <br>
+## Phase 2 Datalakehouse  <br>
 * Pyspark Image         Pending
 * Data Lake House       Pending  <br>
-**Phase 3 Airflow orchestration**  <br>
+## Phase 3 Airflow orchestration  <br>
 * Pyspark Image         Pending
 * Data Lake House       Pending
 
