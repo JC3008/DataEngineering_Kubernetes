@@ -15,6 +15,7 @@ The project consists of collecting data using python applications and writting i
 
 # Project Status  <br>
 ## Phase 1 Ingestion to Datalake  <br>
+![Alt text](image.png)
 ![Alt text](images/ingestion.png)
 * Ingestion Script:      Done
 * Cluster Config:        Done
@@ -49,6 +50,18 @@ After doing that, you'll see the following on your Docker Desktop <br>
 ![Control plane - Workers](images/ContainersKind.png)
 **KIND image.**
 ![KIND image](images/kind_image.png)
+
+## Setting up AWS credentials  <br>
+You'll need to type your credentials on b3_app\src\.env right after the "=" sign:  <br>
+![Alt text](images/env.png)  <br>
+If you use a different region, adjust the region as well.  <br>
+
+## Understanding the src folder structure  <br>
+The src folder contains the whole script that performs the extracting from sources and writting into Datalake. The objects.py has the classes and functions that are used for it.
+The DFPgov is the file which calls functions from objects.py in order to properly do the ETL job.  <br>
+In the objects.py there is a variable called dotenv_path that you might be aware of. This variable indicates the path to .env file you recent adjust. Note that the path indicates /workspaces/app/.env as it will be the right path within the container. If you try unning that locally, you can change the path for the .env file.
+![Alt text](images/pathenvfile.png)
+
 
 ## Building and pushing a DOCKER iamge to DockerHub
 Your recent created Kubernetes cluster needs that you have your images available on a container registry. The following steps are for build your image locally and then push into Docker Hub: <br>  
