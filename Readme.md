@@ -9,7 +9,7 @@ The first thing you need is a local Kubernetes Cluster, for this project KIND wa
 KIND uses YAML files to build the cluster and you can take a look at the b3_app\kind_b3.yaml to get familiarized with the required key:value pairs for the cluster configuration.
 
 ## KIND
-Make sure you are in b3_app folder. \n
+Make sure you are in b3_app folder.  <br>
 Run: 
 * kind create cluster --name dfpcluster --config kind_b3.yaml
 As a result you ll have two new containers running on your Docker, based on a kind image.
