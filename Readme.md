@@ -26,8 +26,12 @@ The project consists of collecting data using python applications and writting i
 * Pyspark Image:         Pending
 * Data Lake House:       Pending  <br>
 ## Phase 4 SODA Data Quality  <br>
-* Implementing:          Pending
-
+* Implementing:          Pending  <br>
+## Phase 5 AWS RDS  <br>
+* Create DB:             Pending  <br>
+* Modeling it:           Pending  <br>
+## Phase 6 AWS EKS  <br>
+* Replicate local cluster on EKS: Pending  <br>
 
 
 ## Settings
