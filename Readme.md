@@ -1,6 +1,15 @@
 # About the project
 This repository keeps a Data Engineering project that aims to gather data from Braziian economic landscape. Initially, most of data is about companies which are listed on B3 (Brasil, Bolsa, Balcão).
 
+# About the requirements
+For performing this project you will need:
+* KIND (Basic only for creating a cluster)
+* Docker (Basic for understand the cluster behavior and maybe debugging it sometimes)
+* Kubectl (Basic for deployment and debugging)
+* AWS account (IAM role, Security group, AWS cli, Credentials)
+* Python (Modules, Classes, Functions)
+* Airflow
+
 # Project outline
 The project consists of collecting data using python applications and writting it on S3 **datalake**, then making needed **data cleaning** and **tranformations**. Once data is available on datalake, it is transformed into a **Data Lake House** by using **Delta** and **Pyspark**. The whole enviroment will be based on **Docker** containers orchestrated by **kubernetes operators** in **Airflow**.
 
@@ -24,4 +33,13 @@ Your recent created Kubernetes cluster needs that you have your images available
 * docker push jcs7/dfp:v1 <br>
 
 ***(It is gonna push as public, make it private, as soon as it is done by clicking on settings.)***
+
+## Adding a secret on cluster to access your DockerHub image
+As this project access AWS bucket, you must be sure of working only with private repositories in order to keep your credentials from unallowed accessing issues.
+
+* kubectl create secret docker-registry regcred --docker-server="https://index.docker.io/v1/" --docker-username="" --docker-password="" --docker-email=""
+
+The above command will create a new token named as regcred. This token is mentioned on your deployment.yaml file.
+
+## Deploying your app
 
