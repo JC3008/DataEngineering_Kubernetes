@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-deploy
+  labels:
+    name: python-deploy
+    app: dfp-app
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      name: python-pod
+      app: dfp-app
+  template:
+    metadata:
+      name: python-pod
+      labels:
+        name: python-pod
+        app: dfp-app
+    spec:
+      containers:
+      - name: python
+        image: jcs7/dfp:v1
+        # ports:
+        # - containerPort: 80
+      imagePullSecrets:
+        - name: regcred
+
