@@ -22,7 +22,8 @@ The project consists of collecting data using python applications and writting i
 * Python Docker Image:   Done
 * Ingestion Deployment:  Done  <br>
 ## Phase 2 Datalakehouse  <br>
-* Pyspark Image:         Pending
+* Glue Pyspark:          Done
+* Terraform:             Done  <br>
 * Data Lake House:       Pending  <br>
 ## Phase 3 Airflow orchestration  <br>
 * Pyspark Image:         Pending
