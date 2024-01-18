@@ -24,7 +24,7 @@ The project consists of collecting data using python applications and writting i
 ## Phase 2 Datalakehouse  <br>
 * Glue Pyspark:          Done
 * Terraform:             Done  <br>
-* Data Lake House:       Pending  <br>
+* Data Lake House:       In Progress  <br>
 ## Phase 3 Airflow orchestration  <br>
 * Pyspark Image:         Pending
 * Data Lake House:       Pending  <br>
