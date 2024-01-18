@@ -27,8 +27,8 @@ The project consists of collecting data using python applications and writting i
 * Terraform:             Done  <br>
 * Data Lake House:       In Progress  <br>
 ## Phase 3 Airflow orchestration  <br>
-* Pyspark Image:         Pending
-* Data Lake House:       Pending  <br>
+* Airflow set up:         Pending
+* Create the DAGs:        Pending  <br>
 ## Phase 4 SODA Data Quality  <br>
 * Implementing:          Pending  <br>
 ## Phase 5 AWS RDS  <br>
