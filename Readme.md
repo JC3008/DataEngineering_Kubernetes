@@ -22,6 +22,7 @@ The project consists of collecting data using python applications and writting i
 * Python Docker Image:   Done
 * Ingestion Deployment:  Done  <br>
 ## Phase 2 Datalakehouse  <br>
+![Alt text](images/datalakehouse.png)
 * Glue Pyspark:          Done
 * Terraform:             Done  <br>
 * Data Lake House:       In Progress  <br>
