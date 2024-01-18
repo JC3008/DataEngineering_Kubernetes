@@ -6,9 +6,11 @@ For performing this project you will need:
 * KIND (Basic only for creating a cluster)
 * Docker (Basic for understand the cluster behavior and maybe debugging it sometimes)
 * Kubectl (Basic for deployment and debugging)
-* AWS account (IAM role, Security group, AWS cli, Credentials)
+* AWS account (IAM role, Security group, AWS cli, Credentials, GLUE)
 * Python (Modules, Classes, Functions)
+* Pyspark
 * Airflow
+* Terraform
 
 # Project outline
 The project consists of collecting data using python applications and writting it on S3 **datalake**, then making needed **data cleaning** and **tranformations**. Once data is available on datalake, it is transformed into a **Data Lake House** by using **Delta** and **Pyspark**. The whole enviroment will be based on **Docker** containers orchestrated by **kubernetes operators** in **Airflow**.
@@ -57,6 +59,7 @@ After doing that, you'll see the following on your Docker Desktop <br>
 You'll need to type your credentials on b3_app\src\.env right after the "=" sign:  <br>
 ![Alt text](images/env.png)  <br>
 If you use a different region, adjust the region as well.  <br>
+If the file is not within the folder structure, create it in the path b3_app\src\.env and type your credentials and region.
 
 ## Understanding the src folder structure  <br>
 The src folder contains the whole script that performs the extracting from sources and writting into Datalake. The objects.py has the classes and functions that are used for it.
