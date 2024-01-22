@@ -28,8 +28,9 @@ The project consists of collecting data using python applications and writting i
 * Glue Pyspark:          Done
 * Terraform:             Done  <br>
 * Data Lake House:       In Progress  <br>
-## Phase 2 Data Dicovering  <br>
+## Phase 2 Data Discovering  <br>
 This step is required to understand the data and start the analysis.
+The presentation bellow is just a first glance at the data, and it shows the incomings from sells of goods and services by UF.
 ![Alt text](images/data_discovering.png)
 * SQL queries:           Done
 * Python Script:         Done  <br>
