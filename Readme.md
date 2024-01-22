@@ -28,15 +28,20 @@ The project consists of collecting data using python applications and writting i
 * Glue Pyspark:          Done
 * Terraform:             Done  <br>
 * Data Lake House:       In Progress  <br>
-## Phase 3 Airflow orchestration  <br>
+## Phase 2 Data Dicovering  <br>
+![Alt text](images/data_discovering.png)
+* SQL queries:           Done
+* Python Script:         Done  <br>
+
+## Phase 4 Airflow orchestration  <br>
 * Airflow set up:         Pending
 * Create the DAGs:        Pending  <br>
-## Phase 4 SODA Data Quality  <br>
+## Phase 5 SODA Data Quality  <br>
 * Implementing:          Pending  <br>
-## Phase 5 AWS RDS  <br>
+## Phase 6 AWS RDS  <br>
 * Create DB:             Pending  <br>
 * Modeling it:           Pending  <br>
-## Phase 6 AWS EKS  <br>
+## Phase 7 AWS EKS  <br>
 * Replicate local cluster on EKS: Pending  <br>
 
 
