@@ -29,6 +29,7 @@ The project consists of collecting data using python applications and writting i
 * Terraform:             Done  <br>
 * Data Lake House:       In Progress  <br>
 ## Phase 2 Data Dicovering  <br>
+This step is required to understand the data and start the analysis.
 ![Alt text](images/data_discovering.png)
 * SQL queries:           Done
 * Python Script:         Done  <br>
