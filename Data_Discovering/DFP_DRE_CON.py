@@ -47,8 +47,8 @@ dfp_con = pd.read_csv(r'dfp_cia_aberta_DRE_con_2022.csv',sep=';',encoding='Windo
 SERVER = 'DESKTOP-DD8P4JN'
 DATABASE = 'B3_DATA_DISCOVERING'
 DRIVER = 'SQL Server Native Client 11.0'
-USERNAME = 'sa'
-PASSWORD = 'jotace007'
+USERNAME = ''
+PASSWORD = ''
 DATABASE_CONNECTION = f'mssql://{USERNAME}:{PASSWORD}@{SERVER}/{DATABASE}?driver={DRIVER}'
     
 engine = create_engine(DATABASE_CONNECTION)
