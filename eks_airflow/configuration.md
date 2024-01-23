@@ -13,7 +13,7 @@ Is a resource isolation protocol tha allows us to run our apps safetly. It is ma
 * Choose "Not work with ipv6"
 * click on create
 Check your recent created VPC on "your vpcs". <br>
- ***Note that this steps have been set manually, but it can be done using IAC.***
+ ***Note that these steps have been set manually, but it can be done using IAC.***
 ### Subnets
 * Subnets (You can create private and public subnets)
 
