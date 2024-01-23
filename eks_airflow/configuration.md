@@ -15,7 +15,15 @@ Is a resource isolation protocol tha allows us to run our apps safetly. It is ma
 Check your recent created VPC on "your vpcs". <br>
  ***Note that these steps have been set manually, but it can be done using IAC.***
 ### Subnets
-* Subnets (You can create private and public subnets)
+You can create private and public subnets. Follow the steps for both cases.
+* Select your vpc
+* create new subnet
+* give it a name
+* give it a CIDR block (**I.E: 10.0.0.0/24 --remember of creating different ranges for each subnet**)
+* Select a avalablty zone
+* 
+## What is CIDR?
+CIDR stands for Classless Inter-Domain Routing. Read more on https://aws.amazon.com/pt/what-is/cidr/
 
 ## Cloud9
 * Search for "cloud9" on AWS searching box
