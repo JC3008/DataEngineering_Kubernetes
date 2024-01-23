@@ -46,6 +46,7 @@ The presentation bellow is just a first glance at the data, and it shows the inc
 * Create DB:             Pending  <br>
 * Modeling it:           Pending  <br>
 ## Phase 7 AWS EKS  <br>
+* Cluster creation:[more](eks_airflow\configuration.md): In progress
 * Replicate local cluster on EKS: Pending  <br>
 
 
