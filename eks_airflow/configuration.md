@@ -1,3 +1,4 @@
+[back to Readme](https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/Readme.md)
 # IDE config
 The cloud9 IDE was chosen as enviroment to set eks cluster up. It is nice to keep in mind that cloud9 is not for free, so be sure of setting up the timeout to 30 minutes which is the minimum timeout available. Although it is paid tool, it is low cost and we can take advantage of having an easier way of setting eks and airflow up.
 
@@ -10,4 +11,4 @@ As cloud9 runs on EC2 instance, you'll need a subnet to emsemble it. If you don'
 * Give it a name and select the following options:
 ![Alt text](https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/eks_airflow/images/cloud9.png)
 
-[back](https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/Readme.md)
+
