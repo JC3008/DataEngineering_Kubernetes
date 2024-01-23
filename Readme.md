@@ -46,7 +46,7 @@ The presentation bellow is just a first glance at the data, and it shows the inc
 * Create DB:             Pending  <br>
 * Modeling it:           Pending  <br>
 ## Phase 7 AWS EKS  <br>
-* Cluster creation: [more](https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/eks_airflow/configuration.md): In progress
+* Cluster creation [more](https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/eks_airflow/configuration.md): In progress
 * Replicate local cluster on EKS: Pending  <br>
 
 
