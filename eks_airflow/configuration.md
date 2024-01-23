@@ -5,7 +5,7 @@ The cloud9 IDE was chosen as enviroment to set eks cluster up. It is nice to kee
 ## VPC and subnets
 As cloud9 runs on EC2 instance, you'll need a subnet to emsemble it. If you don't have one, read the following steps.
 ### VPC
-Is a resource isolation protocol tha allows us to run our apps safetly. It is mandatory that a VPC is builded under a given region.
+It Is a resource isolation protocol tha allows us to run our apps safetly. It is mandatory that a VPC is builded under a given region.
 
 ### Creating a new VPC
 * Give it a name
